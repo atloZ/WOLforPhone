@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".MainActivity">
+
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PlexServer"
+        android:textSize="25dp" />
+
+<Button
+        android:id="@+id/btnWOL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WOL"
+        android:textSize="25dp" />
+
+<TextView
+        android:id="@+id/tvData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Infó"
+        android:textSize="25dp" />
+
+</LinearLayout>
